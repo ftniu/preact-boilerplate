@@ -1,6 +1,5 @@
 import "../../styles/Toast.css";
 import PropTypes from "prop-types";
-// import { useEffect } from "preact/hooks";
 import { useEffect, useRef } from "preact/hooks";
 import Button from "./Button";
 import { IoClose } from "../../assets/icons";

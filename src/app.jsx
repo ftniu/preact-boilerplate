@@ -107,7 +107,7 @@ function App() {
               const span = e.target.children[1];
               span.textContent = "copied!";
               e.target.classList.add("btn__success");
-              copyToClipboard("https://github.com/chaseottofy/react-boiler-v2");
+              copyToClipboard("https://github.com/chaseottofy/react-boiler-v3");
               setTimeout(() => {
                 e.target.classList.remove("btn__success");
                 span.textContent = "copy";
@@ -128,7 +128,7 @@ function App() {
                 disabled={true}
               />
             }
-            href="https://github.com/chaseottofy/react-boiler-v2"
+            href="https://github.com/chaseottofy/react-boiler-v3"
             title="github repo"
           />
         </div>

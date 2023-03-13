@@ -1,8 +1,10 @@
-# preact-boilerplate
+# starter kit : preact
 
 Designed to deliver an easily configurable system to acheive perfect lighthouse scores without sacrificing tooling/functionality. 
 
-vite/preact
+If you prefer react, I have a version built with that as well.
+
+tooling : vite
 
 * typed components
 * adheres to aria guidelines

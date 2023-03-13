@@ -1,14 +1,10 @@
 # starter kit : preact
-<figure>
 
-![screenshot](./screenshots/preact_boiler_light.png)
-<figcaption align="center">light mode <b>(also includes dark/contrast options)</b></figcaption>
-</figure>
-Designed to deliver an easily configurable system to acheive perfect lighthouse scores without sacrificing tooling/functionality. 
+Light Theme Demo **(also includes Dark/Contrast theme)**
 
-If you prefer react, I have a version built with that as well.
+![screenshot](./screenshots/preact_score.png)
 
-tooling : vite
+Designed specifically to acheive perfect lighthouse scores. Adheres to all Accessibility standards (aria, tabbing, contrast, etc.) and is a perfect starting point in terms of SEO (no plugins). Comes with several custom components, a few custom hooks, several utility functions, over 100 useful CSS classes, typed props, and responsive design. Written to be as lightweight as possible without sacrificing utility.
 
 * typed components
 * adheres to aria guidelines
@@ -59,3 +55,4 @@ tooling : vite
   * useFetch
   * useIsFirstRender
   * useLocal
+* vite tooling

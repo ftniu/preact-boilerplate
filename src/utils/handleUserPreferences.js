@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useLocal } from "../hooks";
 
-const setInitialPreferences = (theme, language) => {
+const handleUserPreferences = (theme, language) => {
   const root = document.documentElement;
   const meta = document.getElementsByName("color-scheme")[0];
   if (!useLocal.has("theme") || useLocal.get("theme") === undefined) {

@@ -1,10 +1,16 @@
-# starter kit : preact
+# PREACT : starter kit
 
-[checkout the react version of this kit](https://github.com/chaseottofy/react-boilerplate)
+[PREACTJS DOCUMENTS](https://preactjs.com/)
 
-Light Theme Demo **(also includes Dark/Contrast theme)**
+[checkout the React version of this kit](https://github.com/chaseottofy/react-boilerplate)
 
-![screenshot](./screenshots/preact_score.png)
+Light Theme 
+
+![screenshot_light](./screenshots/preact_score.png)
+
+Dark Theme **(also includes Contrast Theme)**
+
+![screenshot_dark](./screenshots/preact_boiler_dark.png)
 
 Designed specifically to acheive perfect lighthouse scores. Adheres to all Accessibility standards (aria, tabbing, contrast, etc.) and is a perfect starting point in terms of SEO (no plugins). Comes with several custom components, a few custom hooks, several utility functions, over 100 useful CSS classes, typed props, and responsive design. Written to be as lightweight as possible without sacrificing utility.
 
@@ -52,9 +58,13 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
   * 9 date/time methods
   * copy to clipboard method
   * form validation
+  * generate uuid
+  * handle user preferences (light/dark mode) / locale
+  * handle popup bounds (adjust popup location based on window)
+  * enable location
 * custom hooks:
   * useDebounce
-  * useFetch
   * useIsFirstRender
   * useLocal
+  * useClickOutside
 * vite tooling

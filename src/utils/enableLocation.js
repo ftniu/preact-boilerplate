@@ -5,7 +5,7 @@ const location = {
   hasError: false,
 };
 
-export default function enableLocation() {
+const enableLocation = () => {
   window.navigator.geolocation.getCurrentPosition(
     (pos) => {
       const crd = pos.coords;
@@ -26,3 +26,5 @@ export default function enableLocation() {
 
   return !location.hasError ? location : null;
 }
+
+export default enableLocation;

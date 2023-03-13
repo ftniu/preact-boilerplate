@@ -1,6 +1,6 @@
 # starter kit : preact
 
-![screenshot](./screenshots/preact_boiler_dark.png)
+![screenshot](./screenshots/preact_boiler_light.png)
 
 Designed to deliver an easily configurable system to acheive perfect lighthouse scores without sacrificing tooling/functionality. 
 

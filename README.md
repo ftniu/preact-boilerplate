@@ -1,16 +1,20 @@
 # PREACT : starter kit
 
+## [REACT VERSION](https://github.com/chaseottofy/react-boilerplate)
+
 [PREACTJS DOCUMENTS](https://preactjs.com/)
 
-[checkout the React version of this kit](https://github.com/chaseottofy/react-boilerplate)
-
-Light Theme 
+### Light Theme 
 
 ![screenshot_light](./screenshots/preact_score.png)
 
-Dark Theme **(also includes Contrast Theme)**
+### Dark Theme
 
 ![screenshot_dark](./screenshots/preact_boiler_dark.png)
+
+### Med Theme
+
+![screenshot_med](./screenshots/preact_boiler_contrast.png)
 
 Designed specifically to acheive perfect lighthouse scores. Adheres to all Accessibility standards (aria, tabbing, contrast, etc.) and is a perfect starting point in terms of SEO (no plugins). Comes with several custom components, a few custom hooks, several utility functions, over 100 useful CSS classes, typed props, and responsive design. Written to be as lightweight as possible without sacrificing utility.
 

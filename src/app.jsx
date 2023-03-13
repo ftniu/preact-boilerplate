@@ -24,7 +24,7 @@ import {
 
 import {
   handleTheme,
-  setInitialPreferences,
+  handleUserPreferences,
   copyToClipboard
 } from './utils';
 
@@ -49,10 +49,7 @@ function App() {
    */
   useEffect(() => {
     if (!isFirstRender) return;
-    setInitialPreferences(
-      window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? "theme__light" : "theme__dark",
-      window.navigator.language
-    );
+    handleUserPreferences();
     setTheme(useLocal.get("theme"));
   }, []);
 
@@ -200,8 +197,8 @@ function App() {
         <div class="row">
           <Tags tags={["ADD(space/enter)", "PREV(backspace)", "DEL(click)"]} />
         </div>
-      </main>
 
+      </main>
 
       <Toast toast={exampleToast} setToast={setExampleToast} />
     </>

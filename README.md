@@ -27,7 +27,6 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
   * accessible names
 * adheres to all trust & safety best practices
   * zero plugins
-  * 
 * lighthouse (100 100 100 100)
 * Custom Components :
 
@@ -35,7 +34,8 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
 
 * vanilla css
 * three themes
-  * each theme features 26 carefully chosen colors to meet any contrast guideline 
+  * each theme features 26 carefully chosen colors
+  * Each theme passes AAA WCAG Contrast Minimums
   * all components have both dark/primary variations for each theme
 * Built with mobile first in mind - responsive for any orientation
 * proper balance of REM units for easy queries
@@ -68,8 +68,10 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
 * Sidebar
 * Header
 * Link
-* Button / SVG button
-* Input / forwardInput / Input + SVG
+* Button
+  * Four variations
+* Input
+  * Four variations
 
 ### Utility Functions
 

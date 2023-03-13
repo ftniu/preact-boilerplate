@@ -1,5 +1,7 @@
 # starter kit : preact
 
+[checkout the react version of this kit](https://github.com/chaseottofy/react-boilerplate)
+
 Light Theme Demo **(also includes Dark/Contrast theme)**
 
 ![screenshot](./screenshots/preact_score.png)

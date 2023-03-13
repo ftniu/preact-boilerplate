@@ -4,21 +4,21 @@
 
 [PREACTJS DOCUMENTS](https://preactjs.com/)
 
-### Light Theme 
+## Light Theme 
 
 ![screenshot_light](./screenshots/preact_score.png)
 
-### Dark Theme
+## Dark Theme
 
 ![screenshot_dark](./screenshots/preact_boiler_dark.png)
 
-### Med Theme
+## Med Theme
 
 ![screenshot_med](./screenshots/preact_boiler_contrast.png)
 
 Designed specifically to acheive perfect lighthouse scores. Adheres to all Accessibility standards (aria, tabbing, contrast, etc.) and is a perfect starting point in terms of SEO (no plugins). Comes with several custom components, a few custom hooks, several utility functions, over 100 useful CSS classes, typed props, and responsive design. Written to be as lightweight as possible without sacrificing utility.
 
-#### Lighthouse
+### Lighthouse
 
 * adheres to aria guidelines
   * logical tab order (all interactive elements are focusable)
@@ -31,7 +31,7 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
 * lighthouse (100 100 100 100)
 * Custom Components :
 
-#### Styling
+### Styling
 
 * vanilla css
 * three themes
@@ -43,7 +43,7 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
 * extensive, carefully crafted CSS reset to handle modern browsers
 * four locally downloaded & pre-configured fonts to choose from (!use only 2)
 
-#### Custom Components
+### Custom Components
 
 * All components configured with prop-types and attributes to handle aria.
 * Tooltip Component
@@ -63,7 +63,7 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
   * [tag component demo on codepen](https://codepen.io/chaseottofy/pen/PodQNKO)
 * Checkbox Component
 
-#### Other Components
+### Other Components
 
 * Sidebar
 * Header
@@ -71,7 +71,7 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
 * Button / SVG button
 * Input / forwardInput / Input + SVG
 
-#### Utility Functions
+### Utility Functions
 
 * 9 date/time methods
 * copy to clipboard method
@@ -81,7 +81,7 @@ Designed specifically to acheive perfect lighthouse scores. Adheres to all Acces
 * handle popup bounds (adjust popup location based on window)
 * enable location
 
-#### Custom Hooks
+### Custom Hooks
 
 * useDebounce
 * useIsFirstRender

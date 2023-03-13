@@ -25,6 +25,3 @@ dist-ssr
 
 # keys
 .env
-
-# screenshots
-*.png

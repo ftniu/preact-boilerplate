@@ -1,7 +1,9 @@
 # starter kit : preact
+<figure>
 
 ![screenshot](./screenshots/preact_boiler_light.png)
-
+<figcaption align="center">light mode <b>(also includes dark/contrast options)</b></figcaption>
+</figure>
 Designed to deliver an easily configurable system to acheive perfect lighthouse scores without sacrificing tooling/functionality. 
 
 If you prefer react, I have a version built with that as well.

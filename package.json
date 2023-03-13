@@ -1,7 +1,7 @@
 {
-  "homepage": "https://chaseottofy.github.io/preact-boilerplate/",
+  "homepage": "https://chaseottofy.github.io/react-boiler-v3/",
   "private": true,
-  "name": "preact-boilerplate",
+  "name": "react-boiler-v3",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -1,5 +1,7 @@
 # starter kit : preact
 
+![screenshot](./screenshots/preact_boiler_dark.png)
+
 Designed to deliver an easily configurable system to acheive perfect lighthouse scores without sacrificing tooling/functionality. 
 
 If you prefer react, I have a version built with that as well.

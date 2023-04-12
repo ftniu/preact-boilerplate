@@ -1,6 +1,7 @@
 import "./styles/App.css";
 import { useState, useEffect } from 'preact/hooks';
 import { useLocal, useIsFirstRender } from "./hooks";
+import TodoList from "./todo";
 
 import {
   Sidebar,
@@ -62,7 +63,7 @@ function App() {
       />
       <main class="main">
 
-
+        <TodoList />
         <div class="row">
           <Checkbox
             checked={false}
@@ -76,7 +77,7 @@ function App() {
         <div class="row">
           <Tooltip content="click me" height="100%">
             <Button
-              className="btn-primary"
+              class="btn-primary"
               title="click for toast"
               onClick={(e) => {
                 setExampleToast(prev => ({
